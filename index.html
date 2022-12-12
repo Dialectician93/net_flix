@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><span style="color: white"> NET</span>FLIX</h1>
+      <p>Thank you for signing up at Netflix.Tell us more about yourself</p>
+      <div class="page">
+        <form action="">
+          <div class="text">
+            <div>
+              <label for="name">Name</label> <br />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                style="width: 385px; height: 2rem"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div>
+              <label for="age">Age</label> <br />
+              <input
+                type="number"
+                name="age"
+                id="age"
+                style="width: 385px; height: 2rem"
+                placeholder="Age"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label> <br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                style="width: 385px; height: 2rem"
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="type">Content Type</label> <br />
+            <select name="type" id="type" style="width: 393px; height: 2.5rem">
+              <option value="type">Series</option>
+              <option value="type">Movies</option>
+              <option value="type">Documentaries</option>
+              <option value="type">Animations</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="type">Movie Type</label><br />
+            <input type="checkbox" name="type" id="type" />Comedy <br />
+            <input type="checkbox" name="type" id="type" />Drama <br />
+            <input type="checkbox" name="type" id="type" />Fantastic <br />
+            <input type="checkbox" name="type" id="type" />Action <br />
+            <input type="checkbox" name="type" id="type" />Romance <br />
+            <input type="checkbox" name="type" id="type" />Science-fiction
+          </div>
+          <div>
+            <label for="gender">Gender</label><br />
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="Male"
+              checked
+            />Male <br />
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="female"
+            />Female
+            <br />
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="others"
+            />Others
+          </div>
+          <div>
+            <label for="comment">Feed Back</label> <br /><br />
+            <textarea
+              name="comment"
+              id="comment"
+              cols="50"
+              rows="10"
+              placeholder="Please Write Your Comment"
+            ></textarea>
+          </div>
+          <div style="text-align: center">
+            <!--dışarıya verdim center'ı   -->
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
